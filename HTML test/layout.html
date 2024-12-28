@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        button{
+            color: black;
+            background-color: dodgerblue;
+            border-radius: 5px;
+            width: 100px;
+        }
+        header{
+
+        
+            display: grid;
+            grid-template-columns: 50% 50%;
+            background-color: burlywood;
+        }
+        
+        header section li:hover{
+            color: deepskyblue;
+        }
+        header h1:hover{
+            color:crimson
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <section>
+            <h1>front end Technologies</h1>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>Javascript</li>
+            </ul>
+        </section>
+        <section>
+            <h1>Backend Technologies</h1>
+            <ul>
+                <li>Python</li>
+                <li>java</li>
+                <li>Reactjs</li>
+                <li>.net</li>
+            </ul>
+        </section>
+    </header>
+    <hr>
+    <form>
+        <label>Login:</label>
+        <input type="text" placeholder="Login"><br>
+        <label>Password:</label>
+        <input type="text" placeholder="password"><br>
+        <button>
+            <label>Login</label>
+        </button><br>
+        <button>
+            <label>reset</label>
+
+        </button>
+    </form>
+    
+</body>
+</html>
