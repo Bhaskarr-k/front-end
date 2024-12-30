@@ -1,0 +1,41 @@
+header {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    background-color:darksalmon;
+    height: 100px;
+
+}
+nav{
+    margin-top: 35px;
+}
+nav a{
+    padding: 15px;
+    text-decoration: none;
+    color:crimson;
+    margin-top: 10px;
+}
+nav a:hover{
+    color: aqua;
+    border: 5px solid darkorange;
+    border-radius: 10px;
+    background-color: darkviolet;
+}
+footer{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    color: white;
+    background-color: black;
+
+}
+footer section{
+    margin: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+footer section p{
+    color: gray;
+}
+footer section li:hover{
+    color: aqua;
+
+}
