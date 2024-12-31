@@ -1,0 +1,57 @@
+
+h4{
+    
+    color:blue;
+    font-size: large;
+}
+.first{
+    color: brown;
+    background-color: black;
+    margin-top: 5px;
+
+    
+
+}
+.second{
+    color:chartreuse;
+    background-color: burlywood;
+}
+#four{
+    color: red;
+}
+table,th{
+    color: darkred;
+}
+td{
+    color: darkturquoise;
+}
+[class]{
+    color: green;
+}
+[class='first']{
+    color: crimson;
+    background-color: aqua;
+}
+*{
+    color: white;
+    background-color: black;
+}
+.thrid{
+    color: coral;
+    background-color: darkcyan;
+}
+#five{
+    color: tomato;
+    background-color: darkcyan;
+    
+}
+[id]{
+    color: deeppink;
+    background-color: darkkhaki;
+}
+[id='six']{
+    color: red;
+}
+[class='seven']{
+    color: magenta;
+}
