@@ -1,0 +1,26 @@
+div p,ul li{
+    color: dodgerblue;
+    background-color: darkblue;
+    border: 5px dotted red;
+}
+div>p{
+    color:white;
+    background-color: black;
+    font-size: larger;
+}
+p~p{
+    color: red;
+    background-color: black;
+}
+p+p{
+    color: fuchsia;
+    background-color: white;
+}
+ol+p{
+        color: fuchsia;
+        background-color: white;
+    
+}
+
+    
+

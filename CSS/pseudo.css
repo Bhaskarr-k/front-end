@@ -1,0 +1,58 @@
+div,h1::first-line{
+    color: red;
+    background-color: blue;
+    border: 3px solid greenyellow;
+}
+form::first-line{
+    color: deeppink;
+    background-color: green;
+}   
+
+form input::first-line{
+    color: white;
+    background-color:greenyellow
+    
+}
+p::first-line{
+    color: darkorchid;
+    font-size: large;
+    border: 4px;
+}
+.first::first-line{
+    color:darkorange;
+}
+#second::first-line{
+    color: cyan;
+}
+div::first-letter{
+    color: white;
+    background-color:greenyellow
+}
+#second::first-letter{
+    color: maroon;
+    background-color: black;
+}
+div::before{
+    color: white;
+    background-color: black;
+}
+h3::before{
+    content: "--websites---";
+    color: darkred;
+    background-color: aqua;
+}
+ul::after{
+    content:"--coding--";
+    color: white;
+    background-color: cadetblue;
+    border: 4px solid black;
+}
+.first::selection{
+    color: white;
+    background-color:red;
+}
+#thrid::selection{
+    color: white;
+    background-color: black;
+    font-size: large;
+}

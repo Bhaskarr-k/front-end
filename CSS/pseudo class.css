@@ -1,0 +1,27 @@
+h1:hover{
+    color: blueviolet;
+    background-color: brown;
+    text-decoration-color: blue;
+
+}
+div p:first-child{
+    color: red;
+    background-color: black;
+    font-size: large;
+}
+div p:last-child{
+    color: blue;
+    background-color: chocolate;
+}
+section p:first-child{
+    color: darkorange;
+    background-color: darkorchid;
+}
+section p:nth-child(2){
+    color: deeppink;
+    background-color:black;
+    border: 5px solid salmon;
+}
+
+
+
