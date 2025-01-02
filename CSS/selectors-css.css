@@ -1,0 +1,109 @@
+body{
+    display: flex;
+
+}
+#one{
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    border: 10px solid green;
+    text-align: center;
+    align-content: center;
+    border-radius: 150px;
+    background-color: black;
+    color: white;
+    
+}
+.first{
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    border: 10px solid  red;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    text-align: center;
+    align-content: center;
+    background-color: darkred;
+    color: aqua;
+    margin-left: 100px;
+}
+.thrid{
+    width: 200px;
+    height: 200px;
+    border: 5px dashed darkorange;
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    color: blue;
+    background-color: darkcyan;
+    border-radius: 10px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin-left: 100px;
+    
+}
+.five{
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    text-align: center;
+    align-content: center;
+    border: 10px solid darkturquoise;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    background-color: hotpink;
+    color: darkblue;
+    margin-left: 100px;
+    
+}
+.image{
+    width: 300px;
+    height: 210px;
+    align-content: center;
+    border: 5px solid darkviolet;
+    font-size: 30px;
+    background-color: darkkhaki;
+    margin-left: 30px;
+    padding-left: 30px;
+    border-radius: 10px;
+    border-bottom-right-radius: 150px; 
+    border-bottom-left-radius: 150px; 
+    margin-left: 100px;   
+
+}
+#two{
+    width: 400px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border: 40px solid green;
+    border-bottom-right-radius: 200px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius:200px ;
+}
+#six{
+    border: 5px solid darkorange;
+    margin-left: 50px;
+    border-radius: 100px;
+    padding-top: 70px;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+
+}
+#seven{
+    width: 400px;
+    height: 400px;
+    font-size: 30px;
+    border: 10px solid green;
+    text-align: center;
+    align-content: center;
+    border-radius: 150px;
+    background-color: black;
+    color: white;
+}
+    
+   
+   
