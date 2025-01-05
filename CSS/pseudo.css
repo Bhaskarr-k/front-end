@@ -47,11 +47,11 @@ ul::after{
     background-color: cadetblue;
     border: 4px solid black;
 }
-.first::selection{
+.first ::selection{
     color: white;
     background-color:red;
 }
-#thrid::selection{
+#thrid ::selection{
     color: white;
     background-color: black;
     font-size: large;
