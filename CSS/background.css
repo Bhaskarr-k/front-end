@@ -1,0 +1,13 @@
+div{
+    border: 5px solid green;
+    background-color: lightcoral;
+    /*background-image: linear-gradient( to right,blue,orange,green);*/
+    background-image: url('../images/front\ end.png');
+    background-repeat: no-repeat;
+    background-size: 300px;
+    height: 200px;
+    background-attachment: fixed;
+    
+    
+
+}

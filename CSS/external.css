@@ -1,6 +1,7 @@
 dl{
-    color: crimson;
-    font-size: large;
+    color: lightcoral;
+    font-size: larger;
+    text-align: center;
 }
 ul{
     color: deeppink;
