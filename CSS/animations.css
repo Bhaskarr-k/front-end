@@ -21,3 +21,75 @@ h1{
       
     }
 }
+h2{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    border-radius: 50px;
+    text-align: center;
+    align-content: center;
+    color: white;
+    animation-name: head2;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    border: 3px solid green;
+}
+@keyframes head2{
+    0%{
+        transform: rotate(250deg);
+    }
+    50%{
+
+    }
+    100%{
+        transform: translateX(360px);
+    }
+}
+h3{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 5px solid red;
+    background-color: blueviolet;
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    animation-name: head3;
+    animation-timing-function: ease;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes head3{
+    from{
+        transform: translateY(360px);
+    }
+    to{
+        transform: rotate(150deg);
+    }
+}
+h4{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 5px solid red;
+    background-color: darkorange;
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    animation-name: head4;
+    animation-timing-function: ease;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+
+}
+@keyframes head4{
+    from{
+        transform: translateY(360px);
+    }
+    to{
+        transform: rotate(200deg);
+    }
+} 

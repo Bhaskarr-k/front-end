@@ -57,6 +57,60 @@ A CSS selector selects the HTML elements you want to style.
   ### selection pseudo element.
   - the :: selection element matches the portion of an element that is selecyed by a user.
   - the following CSS properties can be applied to selection color, bg color, cursor, outline.
+  ### another feature avaible in pseudo elements selectors that is
+  - **class^=f it is displayes an output start letter**
+  - **class$----->it is displayes lost letter**
+  - class*----->it is displayes middle letter
+
+  # Pseudo classes
+  - A Pseudo class is used to define a special of an element.
+  - it is denoted with : symbol.
+  - it is classifed into four types they are given below.
+         - hover
+         - first-child
+         - last child
+         - nth child
+### hover:
+- whenever we using hover for elements hover effect applicapable.
+- wherver we using hover in html just move on cursor there hover will applies.
+### first child:
+- it is selected frist paragraph or frist heading
+### last child:
+- it is selected lost paragraph or lost heading.
+### nth child:
+- whenver we use nth child we need specifies number in brakcet.otherwise it is not selected anything.
+# Relationship selectors:
+- it is divided into 2 types they are given below.
+
+            - parent child
+            - sibling selector
+
+- again parent child divided into 2 types they are given below.
+
+      - Descendant(space)
+      - child selector(>)
+## Descendant selector:
+- it is denoted with using space.
+- the deescendent selector matches all elements that are descendants of a specified element.
+## child selector:
+- the child selector selects all elements that are children of a specified element
+- Ex: div is an parent selector
+- P is an child selector
+- in between any selecotors or tags not happened.
+### sibling relation divided into 2 types they are given below.
+
+     - General sibling selector
+     - adjacent sibling selector
+  ## General sibling selector:
+  - it is denoted with using tilt(~) symbol.
+  - the general sibling means[there are total five paragraphs but whenever we use general sibling selecotr it selcts only 4]
+  ## adjacent selcetor:
+  - adjacent selectpr denoteed with using + symbol.
+  - [adjacent sibling means you want to select next]
+  -[frist paragraph is adjacent of second at the same time second paragraph is adjacent of thrid]
+
+         
+
 
 
      

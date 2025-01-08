@@ -1,0 +1,25 @@
+div{
+    border: 2px solid orange;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.two{
+    border: 5px solid lightcoral;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between
+
+}
+
+.one{
+    border: 5px solid lightslategrey;
+    color: blue;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
