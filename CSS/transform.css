@@ -1,18 +1,11 @@
-h1{
-    transform:translateX(50px);
-    transform:translatey(100px);
-    transform: scale(50px);
-    transform: rotate(-20deg);
-    top: 0px;
-    transform: skewX(50deg);
-    transform: skewY(-10deg);
-    
 
-}
 div{
-    transform: translate(100px);
-    transform: rotate(20deg);
+    background-image: url(https://www.achieversit.com/assets/images/logo-white.png);
+    transform: translateX(5px);
+    transform: skew(10px);
     transform: scaleX(20px);
     transform: scaleY(2px);
+    transition: ease;
+    transition-duration: 2sec;
 
 }
