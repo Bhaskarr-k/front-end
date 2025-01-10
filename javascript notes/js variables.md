@@ -5,12 +5,13 @@
  ## rules for variable names:
  - using all upper case letters are recommended.
  - using special charecters are not recommended.
- - using numbeers are not recommended.
- - using space in betwen words.
+ - using numbers are not recommended.
+ - using space in between words.
 
  # in java script mainly we listen one word that is **camel** it means every letter start with capital letter(upper case)
- - 
+
  - **storage advantage is reuse and modify**
+
  ### variables created in three ways in java script
 
  -   var

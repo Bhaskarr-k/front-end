@@ -8,11 +8,11 @@
 - Object methods: Object.create, Object.keys, Object.freeze, etc.
 - Enhanced property access with getters and setters.
 
-## Ec6:
+## ES6:
 - A major milestone for JavaScript, introducing modern syntax and features:
 - **let** and **const**: Block-scoped variable declarations.
 
-## Ec5
+## ES5
 ### var:
 - Declaration(create container)
 -    var username;
@@ -23,7 +23,7 @@
 - re-declaration(re create a container)
 -  var username="bhaskar";
 
-## Ec6
+## Ec6(2015): [EcmaScript]
 ### let:
 
 - Declaration(create container)
