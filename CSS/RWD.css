@@ -1,0 +1,9 @@
+div{
+    display: flex;
+    background-color: gray;
+    border: 5px solid lightgray;
+}
+@media screen and(5px){
+    max-width: 768px;
+    
+}
