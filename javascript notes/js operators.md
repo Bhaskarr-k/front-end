@@ -65,12 +65,19 @@
   | <=           | lessthan equal to   | x<=8      |  true  |
 
 
-  ## logical operaors:
-  - logical operators are use to determine the logic between variables or values.
-  - given that **x=6** and **y=3** the table below explains the logical operators.
+  ## string operators:
+  - all the comparision operators avove can also be used on strings:
+  - note that strings are compared alphabetically.
+  ### javascript addition function:
+  - the **+** can also be used to add (concatenate) strings:
+  - the **+=** assignment operator can also be used to add concatenate strings.
+  ## javascript logical operators:
+  - comparision operators are mainly used to perform the logical operations that determine the equality or diffrence between the values.
+  - && returns true if both operands are true.
+  - || returns true if atleast one operand is true.
+  - ! negates the boolean value.
+  ## 
 
-  |operator|description|example        |     
-  |--------|-----------|---------------|
                     
 
 
