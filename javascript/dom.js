@@ -32,5 +32,25 @@
 // const sevens = document.getElementsByTagName("div")
 // Array.from(sevens).forEach(div => console.log(div.textContent));
 
-const card = document.getElementById("card1")
-console.log(card.matches('.card'));
+// const card = document.getElementById("card1")
+// console.log(card.matches('.card'));
+// const list = document.getElementById("list")
+// const children = list.children;
+// Array.from(children).forEach(child => console.log(children.textCOntent))
+
+// const list = document.getElementById("basu")
+// const children = list.children;
+// Array.from(children).forEach(child => console.log(child.textContent));
+
+// const list = document.getElementById("pawan")
+// const children = list. children;
+// Array.from(children).forEach(child => console.log(child.textContent))
+
+// const button = document.querySelector('[data-id="1"]')
+// console.log(button.textContent);
+
+// const message = document.getElementById('message');
+// message.textContent = "hello, javascript";
+// message.innerHTML = `<strong>Hello, javascript </strong>`;
+
+

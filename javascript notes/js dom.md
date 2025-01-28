@@ -84,5 +84,41 @@ element.classList.remove("oldClass");
   |removeChild(node)    |  Removes a child node from a parent node|
 
 
+  ### events
+  - mouse events
+  - keyboard events
+  - form events
+  - window events
+
+  #### mouse events:
+  - click
+  - db click
+  - mousedown
+  - nouseup
+  - mouse over
+  - mouse out
+
+  ### keyboard vents:
+
+
+
+
+
+  ### form events:
+- submit
+- reset
+- change
+- focus
+- blur
+
+
+### window events:
+- window load
+- resize
+- scroll
+- unload
+  
+
+
 
 
