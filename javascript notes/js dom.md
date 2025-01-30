@@ -99,7 +99,9 @@ element.classList.remove("oldClass");
   - mouse out
 
   ### keyboard vents:
-
+  - key down wvwnts
+  - key press
+  - key up
 
 
 
