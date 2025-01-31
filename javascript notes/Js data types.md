@@ -13,7 +13,10 @@
 
 #### string:
 - string is a colleciton of charecters.
+- strings are stored using paranthesis.
 - strings denoted with in single quotes or double quotes('' or "").
+- each element in the string occupies a position in the string.
+- the first element us at index 0.
 #### Numbers:
 - all javascript numbes are stored as deicmal numbers 
 - numbers can be written with or with out decimals.
@@ -30,10 +33,11 @@
 -     array of object.
 
 #### Array:
+- Array is the collection of dats stored it in one data type or two data types.
 - javascript arrays are written in the square brackets[].
 - array items seperated by commas.
-- Array is the collection of dats stored it in one data type or two data types.
 - Array index start from zero.
+
 #### obeject:
 - obejct is the collection of data and stored in the key and value paires.
 -              (or)

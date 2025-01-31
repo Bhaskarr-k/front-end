@@ -1,87 +1,70 @@
 # loops in javascript:
 
-- the various loop mechanisms offer diffrent ways to determine the start and end points of the loop. there are various situations that re more easily served by one type of loop over the others.
-- for statement
+- javascript supports diffrent kinds of loops.
+- **for**: loops through a block of code a number of times.
+- **for/in**: loops through the properties of an object.
+- **for/of**: looops through the values of an iterbale object.
+- **while**: loops through a block of code while a specified condition is true.
+- **do/while**: also loops through a block of code while a specified conditions is true
 
-  do while statement
-
-  while statement
-
-  labeled statement
-
-  break statement
-
-  continue statement
-
-  for in statement
-
-  for of statement
 
 ### for statement:
-- a for loop repeats until a specified condition evaluates to false. the javascript **for** loops is similar to the java and c **for** loop.
-- A **for** statement looks as follows:
+- the **for** statement creates a loop with 3 optional expressions.
+
 - syntax:
-        for (initilization; condition; afterthought)
-            
-            statement
+        for (expression1(variable), expression2(condition), expression3(increae/decrease)){
 
-- when a for loop executes the following occurs.
-- hte initilizing expreesion **initializaion** if any is executed this expreesion usually initilizes one or more loop counters but the syntax alllows an expreesion of any degree of complexity. this expression can also declare variables.
-- the **condition** expreesion is evaluated if the value of **condition** is true the loop statements execute. otherwise the **for** loop terminates.
-- the **statement** executes to execute multiple statements use a block statement ({}) to group those statements.
-- if present the update expression **afterthougt** is executed.
-- control returns to step2.
+        }
 
-### while statement:
-- A while statement executes its statements as long as a specified condition evaluates to **true**. A **while** statement looks as follows:
-- while (condition)
+- **expression1**: this is executed one time before the execution of the code block.
+- **expression2**: it defines the condition for executing the code block.
+- **expression3**: this is executed after the code block has been executed.
 
-  statement.
-
-- If the **condition** becomes **false**, **statement** within the loop stops executing and control passes to the statement following the loop.
-- The condition test occurs before **statement** in the loop is executed. If the condition returns **true**, **statement** is executed and the **condition** is tested again. If the condition returns **false**, execution stops, and control is passed to the statement following **while**.
-- To execute multiple statements, use a block statement (**{ }**) to group those statements.
-
-- example1:
-- the following **while** loop iterates as long as **n** is less than **3**.
-- let n = 0;
-
-  let x = 0;
-
-  while (n < 3) {
-
-    n++;
-
-    x += n;
-
-  }
-- With each iteration, the loop increments **n** and adds that value to **x**. Therefore, **x** and **n** take on the following values:
-- after the first pass:**n** = 1 and **x** = 1
-- after the first pass:**n** = 2 and **x** = 3
-- after the first pass:**n** = 3 and **x** = 6
-
-- After completing the third pass, the condition **n < 3** is no longer **true**, so the loop terminates.
-
-### do-while statement:
-- The do...while statement repeats until a specified condition evaluates to false.
-- A **do...while** statement looks as follows:
-- do 
-   
-    statement
-
- while(condition);
-
-- **statement** is always executed once before the condition is checked. (To execute multiple statements, use a block statement ({ }) to group those statements.)
-- If **condition** is **true**, the statement executes again. At the end of every execution, the condition is checked. When the condition is **false**, execution stops, and control passes to the statement following **do...while**.
+### for in loop.
+- the javascript **forin** statement loops through the properties of an object.
 - example:
-- In the following example, the **do** loop iterates at least once and reiterates until **i** is no longer less than **5**.
-- let i = 0;
+- const person = {fname:"John", lname:"Doe", age:25};
 
-  do {
+  let text = "";
 
-    i += 1;
+  for (let x in person) {
 
-    console.log(i);
+  text += person[x];
+}
+
+### for of loop:
+- the javascript for of loop statement loops through the values of an iterable object.
+- it lets you loop over iterable data structure such as arrays , strings, maps, nodelists.
 
 
-  } while (i < 5);
+### while loop:
+- the while loop thorugh a block of code as long as specified condition is true.
+- syntax:
+- while (condition) {
+
+  // code block to be executed
+
+}
+### do while loop :
+the do while loop is a varient of the while loop. this loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.
+- syntax:
+- do {
+
+  // code block to be executed
+
+}
+
+while (condition);
+
+
+
+
+
+
+
+
+
+ 
+
+
+  

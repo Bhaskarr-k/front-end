@@ -3,24 +3,26 @@
 - operators are nothing but parameters help us to perform operations on the data which have stored a value.
 - javascript operators are used to perform diffrent types of mathmatical and logical computations.
 - there are difrent types of operators in javascript they are in given below.
-- Arthamtic operaors
+-     Arthamtic operators
 
-  Assignment operators 
+      Assignment operators 
 
-  comparision operators
+      comparision operators
 
-  string operators
+      string operators
 
-  logical opertors
+      logical opertors
 
-  bitwise operators
+      bitwise operators
 
-  ternary operators
+      ternary operators
 
-  type operators
+      type operators
+
 ## Arithmetic operators:
 - Arthimetic operators are use to perform arithmetic on numbers.
-- example   + addition
+- example    
+-           + addition
     
             - substraction
 
@@ -68,7 +70,7 @@
   ## string operators:
   - all the comparision operators avove can also be used on strings:
   - note that strings are compared alphabetically.
-  ### javascript addition function:
+  ## javascript addition function:
   - the **+** can also be used to add (concatenate) strings:
   - the **+=** assignment operator can also be used to add concatenate strings.
   ## javascript logical operators:
@@ -76,7 +78,17 @@
   - && returns true if both operands are true.
   - || returns true if atleast one operand is true.
   - ! negates the boolean value.
-  ## 
+  ## Bitwise operators:
+  - **Bitwise AND**: Returns a one in each bit position for which the corresponding bits of both operands are ones.
+  - **Bitwise OR**: Returns a zero in each bit position for which the corresponding bits of both operands are zeros.
+  - **bitwise not**: Inverts the bits of its operand.
+
+  ## logical operators:
+  - **Logical AND(&&)**: Returns expr1 if it can be converted to false; otherwise, returns expr2. Thus, when used with Boolean values, && returns true if both operands are true; otherwise, returns false.
+  - **Logical OR(||)**: Returns expr1 if it can be converted to true; otherwise, returns expr2. Thus, when used with Boolean values, || returns true if either operand is true; if both are false, returns false.
+  - **Logical NOT**: Returns false if its single operand can be converted to true; otherwise, returns true.
+
+  
 
                     
 

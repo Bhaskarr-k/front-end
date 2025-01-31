@@ -1,6 +1,6 @@
 # Functions:
-- funtions are one of the fundamentsl building blocks in javascript.
-- A function in javascript to procedure a set of statements that perfomes a tsk or calculates a value.
+- funtions are one of the fundamental building blocks in javascript.
+- A function in javascript to procedure a set of statements that perfomes a task or calculates a value.
 - it should take some input and return an output where there is some obvious relationship between the input and output.
 - function is nothing but block of code which performes a specific task whenver it is invoked.
 - functions can be reusable.
@@ -8,11 +8,11 @@
 ### function declarations:
 - A Function definition also called a function declaration, or function statement consists of the function keyword followed by
 - the name of the function.
-- a list of parameters to the function, elclosed in parenthesis ans seperated by commas.
+- a list of parameters to the function, elclosed in parenthesis and seperated by commas.
 - the javascript statements that define function, enclosed in curly braces, { /*....*/}
 - for example the following code defines a function named **square**:
 
-- function square(number) {
+-   function square(number) {
 
     return number * number;
 
@@ -105,13 +105,35 @@
 
         return n*n;
     }
+    ## multi nested functions:
+    - functions can be multiply nested .
+    - A function (A) Contain a function (B) which itself contains a function (c).
+    - Both functions B and C form closures here so B can access A and C can access B.
+    - in addition since C can access B which can access A, C can also access A.
+    - example:
+    - function A(x) {
 
-    ## function parameters:
+         function B(y) {
+
+             function C(z) {
+
+               console.log(x + y + z);
+
+    }
+
+  }
+  
+}
+
+
+
+
+## function parameters:
     - there are two special kinds of parameter 
     - default parameters
       rest parameters
 
-    ### default parameters:
+### default parameters:
 
     - in javascript parameters of cuntions default to **undefined** however in some situations in might be useful to set a diffrent default value.
     - this is exactly what default parameters do.
@@ -149,7 +171,7 @@
     - const arr = multiply(2, 1, 2, 3);
     - console.log(arr);
 
-    ## Arrow functions:
+## Arrow functions:
 
     - An arrow fucntions expression also called a fat arrow to distinguish from a hypothetical -> syntax in future javascript.
     - has a shorter syntax compared to function expressions and does not have its own **this**, **arguments**,**super** or **new**, **target** .
