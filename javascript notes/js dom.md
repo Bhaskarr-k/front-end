@@ -1,7 +1,14 @@
 # js dom?
 - dom stans for document object model
-- in javascript is a programing interface for web document.
-- it represents the structure of a web page as a hierarchical tree of objects making it possible to manipulate the content structure and style of a dcoument dynamically.
+- DOM is a programing interface for web documents.
+- it represents the struture of an HTML or XML documents as tree of objects that can be manioulated using javascript
+- it represents the page of thst parograms can change the document structure,and style and ocntent.
+- A web page is a documeny that can be displayes eiher browserr or as the html source.
+## DOM structure:
+- the DOM represents an HTML as  ahierarchical tree where
+- each HTML element is a node.
+- the entore document is the **root node**
+- elelment contains **child nodes**
 ## key conacpets of DOM:
 ### tree structure: 
 - the dom represents an HTML or XML documents as a tree of nodes. each element , attribute, or piece of text in the document is represented as a node.
