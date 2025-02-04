@@ -10,6 +10,20 @@
 - **range errors**: occcurs when an invalid URL encoding/decoding is used.
 ## handling erros using **try and catch**:
 - the **try and catch** block is used to handle runtime errors and prevent program crashes.
+
+
+### throw:
+- used to create custome errors and stop code execution.
+### try catch:
+- allows you to catch and handle errors, preventing the program from crashing.
+ -   **try block**: contains cod ethat may throw an error.
+ -  **catch block**: catches and handle the error
+### finally:
+- executes code after the try and catch blocks, regradless of an error handling.
+### custom errors:
+- you can create your own errortypes by extending the error class.
+
+
 - **example**:
 try {
 
@@ -70,7 +84,7 @@ try {
 } catch (error) {
 
     console.error("Caught an error:", error.message);
-    
+
 } finally {
 
     console.log("This will always run.");
