@@ -35,7 +35,43 @@
 // console.log(regex.test(s2));     ---------------using string literal             
 
 
-const pattren = "hello\.";
-const regex = new RegExp(pattren);
-const s1 = "hello world";
-console.log(regex.test(s1));
+// const pattren = "hello\.";
+// const regex = new RegExp(pattren);
+// const s1 = "hello world";
+// console.log(regex.test(s1));
+
+
+
+
+
+
+
+// email
+
+// function validateEmail(email) {
+//     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+//     return emailRegex.test(email);
+// }
+
+// console.log(validateEmail("test@example.com")); 
+// console.log(validateEmail("bhasu75579@gmail.com"));
+
+
+//phone number
+
+// function validatephonenumber (phone) {
+//     const phoneregex = /^[5-7][0-9]{10}$/;
+//     return phoneregex.test(phone);
+// }
+// console.log(validatephonenumber("3453434612"));
+
+
+// password
+
+function validatePassword(password) {
+    const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
+    return passwordRegex.test(password);
+}
+
+
+console.log(validatePassword("Pass1234")); 
