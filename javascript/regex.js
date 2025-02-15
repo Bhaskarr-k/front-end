@@ -28,7 +28,7 @@
  
 
 
-// const regex = /front/;
+//const regex = /front/;
 // const s1 = "frontend";
 // const s2 = "front";
 // console.log(regex.test(s1));
@@ -55,18 +55,31 @@
 
 // console.log(validateEmail("test@example.com")); 
 // console.log(validateEmail("bhasu75579@gmail.com"));
+// console.log(validateEmail("bhasu75579gmail.com"));
 
 
-//phone number
+
+
+
+// //phone number
 
 // function validatephonenumber (phone) {
-//     const phoneregex = /^[5-7][0-9]{10}$/;
+//     const phoneregex = /^[0-9]{10}$/;
 //     return phoneregex.test(phone);
 // }
 // console.log(validatephonenumber("3453434612"));
+// console.log(validatephonenumber("6453434612"));
 
 
-// password
+
+
+
+
+
+
+
+
+//   password
 
 function validatePassword(password) {
     const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;

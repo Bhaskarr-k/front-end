@@ -41,6 +41,6 @@
 #### obeject:
 - obejct is the collection of data and stored in the key and value paires.
 -              (or)
-- array is an real time entity stored of ans data.
+- array is an real time entity stored of an data.
 #### Array obeject data type:
 - array object data type means with in one variable we can store multiple obejcts that is called array of object.
