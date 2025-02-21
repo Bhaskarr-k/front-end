@@ -5,6 +5,8 @@
 - once promise created means it is **pending** state.
 - it is success means **resolve**
 - it is failure means **reject**
+- resolve block executed means **.then will be executed**
+- reject block executed means **.catch method will be executed**
 
 -- **resolve execute means automatically finally block will execute and reject means catch block will execute**
 
