@@ -6,6 +6,7 @@
 - A web page is a documeny that can be displayes eiher browserr or as the html source.
 ## DOM structure:
 - the DOM represents an HTML as  ahierarchical tree where
+- in HTML html is the root node nad head and bosy is the children nodes.
 - each HTML element is a node.
 - the entore document is the **root node**
 - elelment contains **child nodes**

@@ -28,6 +28,7 @@
  - initilization(we need to give value of container)
  - re initilization(if we want to modify then we can use this)
  - re-declaration(if we want to re create a container then we can use this)
+ - var is globally scoped
 
  -   Ex:
     var username;
@@ -40,6 +41,7 @@
 - declaration(frist we want to create a container)
 - initilization(afetr that give value of the container)
 - re initilization(if we want to modify value then we can use this)
+- let is the block scoped
 
 - Ex:  let username;
 -      username='basu';
@@ -49,3 +51,4 @@
 ### const
 
 - in const we can declare container and value same line.
+- const is the block scoped
