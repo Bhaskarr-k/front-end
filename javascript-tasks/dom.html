@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>change background color</title>
+</head>
+<body>
+    <h1>javascript</h1>
+    <h2>Reactjs</h2>
+    <!-- <h3 id="btn" style="color:lightgreen"></h3> -->
+    <button id="btn" onclick="myfunc()">click here</button>
+
+
+    <script>
+        let result = document.getElementById("btn");
+        function changecolor(color) {
+            document.body.style.background = color;
+        }
+        function myfunc() {
+            changecolor('orange');
+            // result.innerHTML = "background color changed";
+        }
+    </script>
+</body>
+</html>
