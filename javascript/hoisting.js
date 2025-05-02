@@ -22,11 +22,27 @@
 // console.log(c)
 
 // array destructuring
-const colors = ['red','green','yellow']
-const [first, second] = colors;
-const [,,third] = colors
+// const colors = ['red','green','yellow']
+// const [first, second] = colors;
+// const [,,third] = colors
 
-console.log(first);
-console.log(second);
-console.log(third);
+// console.log(first);
+// console.log(second);
+// console.log(third);
+
+// map
+// const numbers = [1,2,3];
+// const doubled = numbers.map(num => num*2);
+// console.log(doubled);
+
+// extracting property from objects
+const users = [
+    { name: "Bhaskar", age: 25 },
+    { name: "Anu", age: 22 }
+  ];
+  
+  const names = users.map(user => user.name);
+  
+  console.log(names); 
+
 
