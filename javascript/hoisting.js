@@ -36,13 +36,49 @@
 // console.log(doubled);
 
 // extracting property from objects
-const users = [
-    { name: "Bhaskar", age: 25 },
-    { name: "Anu", age: 22 }
-  ];
+// const users = [
+//     { name: "Bhaskar", age: 25 },
+//     { name: "Anu", age: 22 }
+//   ];
   
-  const names = users.map(user => user.name);
+//   const names = users.map(user => user.name);
   
-  console.log(names); 
+//   console.log(names); 
 
 
+// remove duplicates from an array
+// const nums = [1,2,2,2,3,4,5]
+// const unique = [...new Set(nums)];
+// console.log(unique)
+
+// const users = [
+//     {name: "bhaskar", age: 25},
+//     {name: "basu", age: 14},
+//     {name: 'siva', age: 23}
+// ]
+// const adults = users.filter(user => user.age >= 18);
+// console.log(adults);
+
+// const person = {
+//     name: "Bhaskar",
+//     age: 25,
+//     greet: function() {
+//       console.log("Hello!");
+//     }
+// };
+// person.greet()
+
+// generator example
+// function* generatorFunction() {
+//     yield 1;
+//     yield 2;
+//     yield 3;
+//   }
+  
+//   const gen = generatorFunction();
+  
+//   console.log(gen.next()); 
+//   console.log(gen.next()); 
+//   console.log(gen.next()); 
+//   console.log(gen.next()); 
+  
