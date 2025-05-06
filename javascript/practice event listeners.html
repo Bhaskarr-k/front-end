@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event listeners</title>
+</head>
+<body>
+    <p>front end language</p>
+    <h4>for structuring web page and applying styles</h4>
+    <button id="btn">learn it</button><br>
+    <button id="mybtn">do it</button>
+    
+</body>
+<script>
+    document.getElementById('btn').addEventListener('click', () => {
+        // alert('learn basics first')
+        console.log('parent clicked')
+    });
+    // document.getElementById('btn').addEventListener('click', () => {
+    //     alert('first learn basic tags')
+    // })
+    document.getElementById('mybtn').addEventListener('click', () => {
+        alert('learn javascript basics')
+    })
+</script>
+</html>
